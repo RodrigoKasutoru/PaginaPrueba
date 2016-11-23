@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+	<script src="js/jquery.js"></script>
+	<style>
+	*{
+		margin-left: 0px;
+		margin-top: 0px;
+		margin: auto;
+	}
+	#fb_logo
+	{
+		cursor: pointer;
+		text-decoration: none;
+		color: white;
+	}
+		.principal
+		{
+			background-color: #3a5795;
+			width: 100%;
+			height: 100%;
+		}
+		.central
+		{
+			width: 1800px;
+			height: 62px;
+			margin: auto;
+			
+		}
+		.logg
+		{
+			background:  linear-gradient(white, #D3D8E8);
+			min-width: 1380px;
+			height: 890px;
+		}
+		#nombre
+		{
+			font-family: helvetica, arial, sans-serif;
+			font-size: 21px;
+			width: 190px;
+			height: 55px;
+			float: left;
+		}
+		#datos
+		{
+			
+			color: white;
+			font-size: 14px;
+      margin-left: 700px;
+		}
+		.us
+		{
+			margin: 10px;
+		}
+		.con
+		{
+			padding-left: 10px;
+		}
+		#imagen
+		{
+			float: left;
+			margin:auto;
+			
+    		width: 565px;
+		}
+		#mensaje
+		{
+			font-family: helvetica, arial, sans-serif;
+			margin: auto;
+			color: #0e385f;
+    		font-size: 20px;
+    		font-weight: bold;
+    		line-height: 29px;
+    		margin-top: 40px;
+   			width: 450px;
+    		word-spacing: -1px;
+		}
+		#datos2
+		{
+			width: 400px;
+			height: 626px;
+			float: right;
+			
+		}
+		.meens
+		{
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+		.registrate{
+			font-size: 36px;
+			margin: auto;
+		}
+		#nada
+		{
+			width: 1200px;
+			height: 890px;
+		}
+		#dat1
+{
+    width: 570px; 
+    height: 220px;  
+}
+#nom,#apell
+{
+    width: 215px;
+    height: 29px;
+    margin-top: 20px;
+    margin-left: 5px;
+    
+}
+
+#corr,#conf_corr,#contr
+{
+    width: 441px;
+    height: 25px;
+    margin-left: 5px;
+}
+#nada1
+{
+    
+    width: 210px;
+    height: 97px;
+    display: inline-block;
+}
+#final
+{
+    
+    width: 520px;
+    height: 160px;
+}
+#entrar
+{
+    border-color: rgb(89,141,69);
+    border-radius: 5px;
+    background-color: rgb(100,166,81);
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 200px;
+    height: 37px;
+    color:white;
+    font-family: helvetica;
+    font-size: 20px;
+}
+#end
+{
+    background-color: white;
+      width: 100%;
+      height: 100%;	
+}
+#end1
+{
+    background-color: white;
+      width: 100%;
+      height: 100%;
+    float: left;
+}
+#end2
+{
+    background-color: white;
+    width: 1140px;
+    height: 200px;
+    float: left;
+}
+.idioma
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.leng
+{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+	</style>
+</head>
+<body>
+	<div class="principal"><br>
+		<div class="central">
+			<div id="nombre">
+				<h1><a href="https://www.facebook.com" title="Ir a página principal" id="fb_logo">facebook</a></h1>
+			</div>
+			<div id="datos">
+			<label class="us">Correo electrónico</label>
+			<label class="con">Contraseña</label><br>
+			<input type="text" placeholder="Correo" class="us">
+			<input type="text" placeholder="Contraseña"><br>
+			<input type="checkbox"><label class="us">No cerrar sesión</label>
+			<label class="con">¿Has olvidado tu contraseña?</label>
+			</div>
+		</div><br>
+		<div class="logg">
+			<div id="nada">
+			<div id="imagen"><br><br><br>
+				<div id="mensaje">
+			Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.
+				</div><br>
+				<img src="imagen/facebook.jpg">
+			</div>
+			<div id="datos2">
+				<div class="meens">
+					<div class="registrate">
+						<font face="helvetica" color="black" size="7"><b>Abre una cuenta</b></font><br>
+    					<font face="helvetica" color="black" size="4">Es gratis y lo sera siempre</font>
+					</div>
+					<div id="dat1">
+  						<input id="nom" class="label" type="text"… placeholder="Nombre"> 
+  						<input id="apell" class="label" type="text"… placeholder="Apellido"><br><br>
+  						<input id="corr" class="label" type="text"… placeholder="Correo o nomuero de celular"><br><br>
+  						<input id="conf_corr" class="label" type="text"… placeholder="Confirmar correo electronico o celular"><br><br>
+  						<input id="contr" class="label" type="password"… placeholder="Contrasena nueva"><br>
+  						<select class="opcion">
+  <option value="Dia">Dia</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+  <option value="13">13</option>
+  <option value="14">14</option>
+  <option value="15">15</option>
+  <option value="16">16</option>
+  <option value="17">17</option>
+  <option value="18">18</option>
+  <option value="19">19</option>
+  <option value="20">20</option>
+  <option value="21">21</option>
+  <option value="22">22</option>
+  <option value="23">23</option>
+  <option value="24">24</option>
+  <option value="25">25</option>
+  <option value="26">26</option>
+  <option value="27">27</option>
+  <option value="28">28</option>
+  <option value="29">29</option>
+  <option value="30">30</option>
+</select>
+<select class="opcion">
+<option value="Mes">Mes</option>
+<option value="Enero">Enero</option>
+<option value="Febrero">Febrero</option>
+<option value="Marzo">Marzo</option>
+<option value="Abril">Abril</option>
+<option value="Mayo">Mayo</option>
+<option value="Junio">Junio</option>
+<option value="Julio">Julio</option>
+<option value="Agosto">Agosto</option>
+<option value="Septiembre">Septiembre</option>
+<option value="Octubre">Octubre</option>
+<option value="Noviembre">Noviembre</option>
+<option value="Diciebre">Diciembre</option>
+</select>
+<select class="opcion">
+    <option value="Año">Año</option>
+    <option value="2015">2015</option>
+    <option value="2014">2014</option>
+    <option value="2013">2013</option>
+    <option value="2012">2012</option>
+    <option value="2011">2011</option>
+    <option value="2010">2010</option>
+    <option value="2009">2009</option>
+    <option value="2008">2008</option>
+    <option value="2007">2007</option>
+    <option value="2006">2006</option>
+    <option value="2005">2005</option>
+    <option value="2004">2004</option>
+    <option value="2003">2003</option>
+    <option value="2002">2002</option>
+    <option value="2001">2001</option>
+    <option value="2000">2000</option>
+    <option value="1999">1999</option>
+    <option value="1998">1998</option>
+    <option value="1997">1997</option>
+    <option value="1996">1996</option>
+    <option value="1995">1995</option>
+    <option value="1994">1994</option>
+    <option value="1993">1993</option>
+    <option value="1992">1992</option>
+    <option value="1991">1991</option>
+    <option value="1990">1990</option>
+</select>
+<div id="nada1">
+<font face="helvetica" size="2" color="blue">
+<a style="text-decoration:none" href="Por que">Por que tengo que<br>
+proporcionar mi fecha de <br>
+nacimiento?</a></font>
+</div>
+<div>
+<input type="radio"><font face="helvetica">Mujer</font> <font color="white">__</font><input type="radio"><font face="helvetica">Hombre</font>
+</div><br>
+<div><font size="2">Al hacer clic en "Abrir una cuenta", aceptas las Condiciones y <br>confirmas que leíste nuestra Política de datos, incluido el uso de<br>cookies.</font><br><br>
+<input type="button" id="entrar" value="Abrir una cuenta">
+</div>
+<br>
+<hr width="89%" align="left">
+<font size="4">Crea una página para un personaje público, un grupo de <br> música o un negocio.</font>
+</div>
+
+
+
+				</div> <!-- div de "meens", donde se registra una nueva cuenta-->
+			</div>
+			</div>
+		</div>
+ <div id="end">
+      <div id="end1"></div>
+      <div id="end2">
+      <font class="idioma" face="helvetica" size="2"><a style="text-decoration:none" href="Español">Español</a></font><font class="idioma" face="helvetica" color="blue" size="2"><a style="text-decoration:none" href="English (EU)">English (EU)</a></font>
+      <font class="idioma" face="helvetica" color="blue" size="2"><a style="text-decoration:none" href="Portuges (Brasil)">Portuges (Brasil)</a></font>
+      <font class="idioma" face="helvetica" size="2"><a style="text-decoration:none" href="Francais (France)">Francais (France)</a></font>
+      <font class="idioma" face="helvetica" size="2"><a style="text-decoration:none" href="Italiano (Deutush)">Italiano (Deutush)</a></font>
+      <font class="idioma" face="helvetica" size="2"><a style="text-decoration:none" href="العربية">العربية</a></font>
+      <font class="idioma" face="helvetica" size="2"><a style="text-decoration:none" href="ا日本語">日本語</a></font>
+      <font class="idioma" face="helvetica" size="2"><a style="text-decoration:none" href="اहिन्दी">हिन्दी</a></font>
+      <a style="text-decoration:none" href="中文(简体)" size="2"><font class="idioma" face="helvetica">中文(简体)</a></font>
+      
+      <HR width=89% align="left">
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Iniciar Sesión">Iniciar Sesión</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Messenger">Messenger</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Facebook Lite"><font color="White">_</font>Facebook Lite</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Celular">Celular<font color="White">_____</font></a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Buscar amigos">Buscar Amigos</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Insignias">Insignias<font color="White">_____</font></a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Personas">Personas</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Paginas">Paginas</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Registrarse"><font color="White">....</font>Registrarse</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Lugares">Lugares</a></font>
+      <br>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Juegos">Juegos</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Ubicaciones"><font color="White">_____</font>Ubicaciones</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Informacion">Informacion</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Crear anuncio"><font color="White">__</font>Crear anuncio</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Crear Pagina">Crear página</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Desarrolladores"><font color="White">._</font>Desarrolladores</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Empleo">Empleo<font color="White">...</font></a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Privacidad">Privacidad</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Cookies">Cookies</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Opciones de anuncio"><font color="White">.....</font>Opciones de anuncio</a></font>
+      <br>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Condiciones">Condiciones</a></font>
+      <font class="leng" face="helvetica" size="2"><a style="text-decoration:none" ><a style="text-decoration:none" href="Ayuda"><font>..</font>Ayuda</a></font>
+
+      </div>
+    </div>
+	</div>
+</body>
+</html>
